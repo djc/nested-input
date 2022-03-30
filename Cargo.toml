@@ -1,0 +1,11 @@
+[package]
+name = "nested-input"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+async-graphql = { git = "https://github.com/async-graphql/async-graphql", rev = "2c4cfa17072a10e118d3ca403bcd127378dbd1c6" }
+async-graphql-axum = { git = "https://github.com/async-graphql/async-graphql", rev = "2c4cfa17072a10e118d3ca403bcd127378dbd1c6" }
+tokio = { version = "1.8", features = ["macros", "rt-multi-thread"] }
+hyper = "0.14"
+axum = { version = "0.4", features = ["headers"] }
